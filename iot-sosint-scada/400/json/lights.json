@@ -1,0 +1,77 @@
+{
+  "1": {
+    "state": {
+      "on": true,
+      "bri": 254,
+      "hue": 39392,
+      "sat": 13,
+      "effect": "none",
+      "xy": [
+        0.3691,
+        0.3719
+      ],
+      "ct": 230,
+      "alert": "select",
+      "colormode": "xy",
+      "reachable": true
+    },
+    "type": "Extended color light",
+    "name": "Hue color lamp 1",
+    "modelid": "LCT014",
+    "manufacturername": "Philips",
+    "uniqueid": "00:17:88:01:02:33:9c:76-0b",
+    "swversion": "1.15.2_r19181",
+    "swconfigid": "A315E69E",
+    "productid": "Philips-LCT014-1-A19ECLv4"
+  },
+  "2": {
+    "state": {
+      "on": true,
+      "bri": 254,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "reachable": false
+    },
+    "type": "Extended color light",
+    "name": "Hue color lamp 2",
+    "modelid": "LCT014",
+    "manufacturername": "Philips",
+    "uniqueid": "00:17:88:01:02:3d:6e:63-0b",
+    "swversion": "1.15.2_r19181",
+    "swconfigid": "A315E69E",
+    "productid": "Philips-LCT014-1-A19ECLv4"
+  },
+  "3": {
+    "state": {
+      "on": true,
+      "bri": 254,
+      "hue": 39392,
+      "sat": 13,
+      "effect": "none",
+      "xy": [
+        0.3691,
+        0.3719
+      ],
+      "ct": 230,
+      "alert": "select",
+      "colormode": "xy",
+      "reachable": true
+    },
+    "type": "Extended color light",
+    "name": "Hue color lamp 3",
+    "modelid": "LCT014",
+    "manufacturername": "Philips",
+    "uniqueid": "00:17:88:01:02:3d:6e:42-0b",
+    "swversion": "1.15.2_r19181",
+    "swconfigid": "A315E69E",
+    "productid": "Philips-LCT014-1-A19ECLv4"
+  }
+}

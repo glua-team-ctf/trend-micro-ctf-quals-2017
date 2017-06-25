@@ -1,0 +1,7 @@
+
+# Ignored files
+forensic/200/VictimMemory.img
+iot-sosint-scada/300/rockyou.txt
+
+# Ignored folders
+forensic/200/dump/

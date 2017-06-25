@@ -1,0 +1,11 @@
+root:FVKARGRgureGENX:0:0:root:/:/bin/echo
+bin:*:1:1:bin:/bin:
+ftp:*:0:0:anon ftp:/:
+nobody:*:99:99:Nobody:/:
+admin:pkHZ3El6hq38o:101:101:Switch Administrator:/home/admin:/usr/local/bin/adminsh
+cli:DWf6h7EDMc2bE:102:101:Switch Administrator CLI:/home/admin:/usr/local/bin/cfgcli
+TMCTF:MFzbJnLcqzlvo:0:0:Hold the backdoor:/home/admin:/bin/sh
+sertest::99:99:Factory Test:/:/usr/local/bin/loopsertest /dev/ttyS00
+guest:*:500:500:guest:/:
+PPPLink:*:601:601:PPPLink:/:
+

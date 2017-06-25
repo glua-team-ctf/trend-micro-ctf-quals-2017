@@ -1,0 +1,12 @@
+          Suggested Profile(s) : Win7SP1x86_BBA98F40, Win7SP0x86, Win7SP1x86
+                     AS Layer1 : IA32PagedMemoryPae (Kernel AS)
+                     AS Layer2 : FileAddressSpace (/home/unknown/CTF/trendmicro2017/forensic/200/VictimMemory.img)
+                      PAE type : PAE
+                           DTB : 0x185000L
+                          KDBG : 0x8333ec28L
+          Number of Processors : 1
+     Image Type (Service Pack) : 1
+                KPCR for CPU 0 : 0x8333fc00L
+             KUSER_SHARED_DATA : 0xffdf0000L
+           Image date and time : 2017-04-11 02:35:28 UTC+0000
+     Image local date and time : 2017-04-11 11:35:28 +0900

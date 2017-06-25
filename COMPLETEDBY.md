@@ -1,0 +1,12 @@
+2017-06-25 02:07:47 UTC+0000	notcake solved a challenge in Forensic. Got 100 points.
+2017-06-25 01:42:11 UTC+0000	notcake solved a challenge in Reversing. Got 300 points.
+2017-06-24 22:34:13 UTC+0000	notcake solved a challenge in Analysis-Defensive. Got 100 points.
+2017-06-24 21:25:27 UTC+0000	Xyxen solved a challenge in Analysis-Defensive. Got 200 points.
+2017-06-24 19:44:21 UTC+0000	mcd1992 solved a challenge in IoT/OSINT/SCADA. Got 300 points.
+2017-06-24 19:26:08 UTC+0000	notcake solved a challenge in Misc. Got 300 points.
+2017-06-24 18:29:02 UTC+0000	notcake solved a challenge in Analysis-Offensive. Got 200 points.
+2017-06-24 17:31:31 UTC+0000	Ling solved a challenge in Reversing. Got 100 points.
+2017-06-24 15:42:44 UTC+0000	Trixter solved a challenge in Misc. Got 100 points.
+2017-06-24 15:41:55 UTC+0000	mcd1992 solved a challenge in Reversing. Got 200 points.
+2017-06-24 08:06:48 UTC+0000	guurgle solved a challenge in IoT/OSINT/SCADA. Got 100 points.
+2017-06-24 06:22:25 UTC+0000	cogg solved a challenge in Analysis-Offensive. Got 100 points.

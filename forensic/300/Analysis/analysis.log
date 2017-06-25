@@ -1,0 +1,26 @@
+2017-06-05 13:58:05,000 [analyzer] DEBUG: Starting analyzer from: C:\ghpfzfo
+2017-06-05 13:58:05,012 [analyzer] DEBUG: Pipe server name: \\.\PIPE\vMqmAIuHvioYyGDzqn
+2017-06-05 13:58:05,012 [analyzer] DEBUG: Log pipe server name: \\.\PIPE\gcdUQURzEvkQoEQZKMOuQNfFjy
+2017-06-05 13:58:05,012 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.
+2017-06-05 13:58:05,012 [analyzer] INFO: Automatically selected analysis package "exe"
+2017-06-05 13:58:07,075 [analyzer] DEBUG: Started auxiliary module Disguise
+2017-06-05 13:58:07,213 [analyzer] DEBUG: Loaded monitor into process with pid 492
+2017-06-05 13:58:07,226 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2017-06-05 13:58:07,240 [analyzer] DEBUG: Started auxiliary module Human
+2017-06-05 13:58:07,240 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2017-06-05 13:58:07,240 [analyzer] DEBUG: Started auxiliary module Reboot
+2017-06-05 13:58:07,278 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2017-06-05 13:58:07,278 [analyzer] DEBUG: Started auxiliary module Screenshots
+2017-06-05 13:58:07,328 [lib.api.process] INFO: Successfully executed process from path u'C:\\Users\\cbaqWin7\\AppData\\Local\\Temp\\ransomware.exe' with arguments '' and pid 312
+2017-06-05 13:58:07,947 [analyzer] DEBUG: Loaded monitor into process with pid 312
+2017-06-05 13:58:07,999 [analyzer] DEBUG: Received request to inject pid=312, but we are already injected there.
+2017-06-05 01:01:41,311 [analyzer] INFO: Added new file to list with pid 312 and path C:\Users\cbaqWin7\AppData\Local\Temp\ransomware.exe.log
+2017-06-05 01:01:42,497 [analyzer] INFO: Added new file to list with pid 312 and path C:\Users\cbaqWin7\Pictures\desktop.ini.TMCTF
+2017-06-05 01:01:44,295 [analyzer] INFO: Added new file to list with pid 312 and path C:\Users\cbaqWin7\Pictures\flag.jpg.TMCTF
+2017-06-05 01:01:44,295 [analyzer] INFO: Added new file to list with pid 312 and path C:\Users\cbaqWin7\Pictures\Thumbs.db.TMCTF
+2017-06-05 01:01:45,747 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2017-06-05 01:04:48,872 [lib.common.results] ERROR: Exception uploading file c:\users\cbaqwin7\appdata\local\temp\tmpcfsbop to host: [Errno 9] Bad file descriptor
+2017-06-05 01:04:50,747 [lib.api.process] INFO: Memory dump of process with pid 312 completed
+2017-06-05 01:04:50,842 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2017-06-05 01:04:50,842 [lib.api.process] WARNING: The process with pid 312 is not alive, memory dump aborted
+2017-06-05 01:04:50,842 [analyzer] INFO: Analysis completed.
